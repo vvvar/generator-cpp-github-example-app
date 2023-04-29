@@ -1,0 +1,10 @@
+{
+  "generator-cppgen": {
+    "ProjectName": "yo-cppgen-example-app",
+    "ProjectNamePretty": "Example Application",
+    "ProjectDescription": "This is a dummy application generated with yo-cppgen",
+    "ProjectWebPage": "https://github.com/vvvar/yo-cppgen",
+    "ProjectMaintainersEmail": "voinovvladv@gmail.com",
+    "GeneratorType": "app"
+  }
+}
