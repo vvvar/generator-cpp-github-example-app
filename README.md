@@ -1,6 +1,6 @@
 <h1 align="center"><img width="100" src="assets/icon.png" /></h1>
 <h1 align="center">Example Application</h1>
-<p align="center">This is a dummy application generated with yo-cppgen</p>
+<p align="center">Dummy application that was generated using generator-cpp-github</p>
 <p align="center">
     <a href="releases/latest"><b>Download</b></a>
     · <a target="_blank" href="issues/new?assignees=&labels=Feature+Request&template=feature_request.md&title="><b>Request Feature</b></a>
@@ -10,6 +10,7 @@
 ![screenshot](assets/screenshot.png)
 
 ## Table of Contents
+
 - [About](#about)
 - [Platform Support](#platform-support)
 - [Features](#features)
@@ -51,12 +52,12 @@ See [`Development`](doc/DEVELOPMENT.md) document.
 
 ## Contributing
 
-See [`Contributing`](doc/CONTRIBUTING.md) document.
+See [`Contributing`](docs/CONTRIBUTING.md) document.
 
-## Licenses
+## Licensing
 
-See [`License`](doc/LICENSE.md) document.
+See [`License`](LICENSE.md) document.
 
 ## Maintainers
 
-* [Write an E-Mail](mailto:voinovvladv@gmail.com)
+- [Write an E-Mail](mailto:voinovvladv@gmail.com)

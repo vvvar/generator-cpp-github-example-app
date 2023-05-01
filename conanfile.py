@@ -2,10 +2,10 @@ from conan import ConanFile
 from conan.tools.cmake import CMakeToolchain, CMakeDeps, CMake, cmake_layout
 
 class ConanProject(ConanFile):
-    name = "yo-cppgen-example-app"
+    name = "example-app"
     version = "0.0.1"
-    url = "https://github.com/vvvar/yo-cppgen"
-    description = "Description: This is a dummy application generated with yo-cppgen"
+    url = "https://github.com/vvvar/generator-cpp-github-example-app"
+    description = "Description: Dummy application that was generated using generator-cpp-github"
     settings = "os", "compiler", "arch", "build_type"
     options = { "shared": [True, False, None] }
     default_options = { "shared": None }
@@ -89,5 +89,5 @@ class ConanProject(ConanFile):
         Define package's meta-information that would be consumed by clients(include dirs, source, etc.)
         Documentation - https://docs.conan.io/2/reference/conanfile/methods/package_info.html
         """
-        self.cpp_info.libs = ["yo-cppgen-example-app"]
+        self.cpp_info.libs = ["example-app"]
         self.cpp_info.libdirs = ['bin']
